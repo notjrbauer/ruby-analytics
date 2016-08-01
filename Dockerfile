@@ -9,11 +9,11 @@ RUN gem install analytics-ruby --no-ri --no-rdoc
 RUN gem install nyny --no-ri --no-rdoc
 # ENV vars
 ENV DEBUG=*
-ENV PORT=4001
+ENV PORT=4002
 
-EXPOSE 4001
+EXPOSE 4002
 #ENTRYPOINT ["ruby"]
-#CMD ["app.rb"]
+#CMD ["index.rb"]
 
 
 
